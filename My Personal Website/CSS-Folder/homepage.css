@@ -1,0 +1,24 @@
+/* Jumbotron styling */
+.jumbotron-bg {
+    background-image: url('../Image/homepage-background.JPG');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Smooth transition for card */
+.card {
+    transition: transform 0.3s ease;
+}
+
+/* Scale card element slightly on hover */
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Styling button color on hover */
+.btn-outline-light:hover {
+    background-color: gray;
+    border-color: gray;
+    color: white;
+}

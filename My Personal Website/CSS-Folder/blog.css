@@ -1,0 +1,18 @@
+/* Smooth transition effect for hover animations */
+.hover {
+    transition: transform 0.3s ease;
+}
+
+/* Slight scaling effect on hover */
+.hover:hover {
+    transform: scale(1.03);
+}
+
+/* Truncate text to show an ellipsis after 3 lines */
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
